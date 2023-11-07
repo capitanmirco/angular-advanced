@@ -1,0 +1,11 @@
+<div class="text-bg-secondary bg row">
+  <div class="col-lg-4">
+    <app-playlist
+      *appFor="let playlist of playlists"
+      [playlist]="playlist"
+    ></app-playlist>
+  </div>
+  <div class="col-lg-8">
+    <app-player></app-player>
+  </div>
+</div>
